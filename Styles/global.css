@@ -11,14 +11,12 @@
     --bg: #202020;
 }
 
-html {
-    overflow-x: hidden;
-}
-
+html,
 body {
     color: white;
     font-family: 'Gotham', sans-serif;
     background: #202020;    
+    overflow-x: hidden;
 }
 
 header {
