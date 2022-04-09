@@ -1,0 +1,165 @@
+
+@import url('http://fonts.cdnfonts.com/css/gotham');                
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+:root {
+    --primary: #FCB823;    
+    --bg: #202020;
+}
+
+body {
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    background: #202020;
+    overflow-x: hidden;
+}
+
+header {
+    background: #000000;
+    height: 6rem;
+    display: flex;
+    gap: 15rem;
+    padding-left: 5%;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    gap: 1.3rem;
+    font-weight: bold;
+    font-size: .8rem;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover {
+    color: var(--primary);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.cor-principal {
+    color: var(--primary);
+}
+
+.card {
+    height: 55rem;
+    background: #fff;
+    width: 20rem;
+    color: black;
+}
+
+.card-header {
+    padding: 2rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.apartir {
+    position: absolute;
+    margin: 7.2rem 1.5rem;
+    width: 16rem;
+    padding: .5rem;
+    gap: .5rem;
+}
+
+.onde-treinar {
+    margin-top: 5rem;
+    font-size: 1.2rem;
+}
+
+.linha-separadora {
+    height: 0.05rem;
+    background: #e5e5e5;
+    margin: 1rem 1rem;
+}
+
+.texto-branco {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+.diferenciais {
+    gap: 1.5rem;
+}
+
+.texto-diferenciais {
+    font-weight: 700;
+    color: grey;
+}
+
+.item-diferencial{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    padding: 0 1.5rem;
+    color: #202020;
+}
+
+.btn-aproveite {
+    width: 14rem;
+    height: 4rem;
+    color: white;
+    background: #D52B1E;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+}
+
+#menu {
+    visibility: visible;
+}
+
+#escolher-plano {
+    background: #202020;
+    padding-top: 3rem;
+    gap: 2rem;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+#planos {
+    gap: 5rem;
+}
+
+#plano-black .apartir {
+    background: var(--primary);
+}
+
+#plano-smart .apartir {
+    background: #000000;
+}
+
+#plano-black .card-header {
+    background: black;
+}
+
+#plano-smart .card-header {
+    background: var(--primary);
+}
